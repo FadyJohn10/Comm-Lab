@@ -1,3 +1,43 @@
+#vid{
+    filter: brightness(.05);
+    transition: .5s ease-in-out;
+}
+
+#readybtn {
+    background: #4729a8;
+    border: none;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -70%);
+    z-index: 9999;
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+    color: #ccc;
+    padding: 10px 20px;
+    font-size: 21px;
+  }
+  #readybtn:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #663dff;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+  #readybtn:hover {
+    color: #fff;
+  }
+  #readybtn:hover:after {
+    left: 0;
+    width: 100%;
+  }
+
 .timeline-steps {
     display: flex;
     justify-content: center;
@@ -87,6 +127,6 @@
 .disabled{
     filter: opacity(.5);
 }
-.timeline-step:hover{
+.next_country:hover{
     filter: opacity(.9);
 }
