@@ -1,8 +1,21 @@
+body{
+    background: #191919 !important;
+}
+
 #vid{
     filter: brightness(.05);
     transition: .5s ease-in-out;
 }
 
+/* Style for the audio element */
+#audio{
+    width: 70%;
+}
+
+#audio::-webkit-media-controls-panel{
+    background-color: #788F9C;
+}
+/* adjusting ready button style displayed in the intro screen */
 #readybtn {
     background: #4729a8;
     border: none;
@@ -38,10 +51,17 @@
     width: 100%;
   }
 
+/* Style for the 'timeline-steps' and 'timeline-step' elements */
+
 .timeline-steps {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    /* background: #96b1c1c7; */
+    padding: 2rem 0 0rem 0;
+    margin-bottom: 1rem;
+    border-radius: 30px;
+    color: #fff;
 }
 
 .timeline-steps .timeline-step {
@@ -52,7 +72,7 @@
     margin: 1rem;
     transition: .4s ease-in-out;
 }
-
+/* adjusting responsivness */
 @media (min-width:768px) {
     .timeline-steps .timeline-step:not(:last-child):after {
         content: "";
@@ -98,12 +118,12 @@
     border-radius: 6.25rem;
     opacity: .85
 }
-
+/* adjusting the timeline color for each country */
 .timeline-steps .timeline-step2 .timeline-content .inner-circle {
-    background-color: #fa2f39
+    background-color: #d11b1b
 }
 .timeline-steps .timeline-step2 .timeline-content .inner-circle:before {
-    background-color: #000;
+    background-color: rgb(189, 189, 189);
 }
 .timeline-steps .timeline-step3 .timeline-content .inner-circle {
     background-color: #477047
@@ -129,4 +149,9 @@
 }
 .next_country:hover{
     filter: opacity(.9);
+}
+
+.parallax_image{
+    height: 800px;
+    transition: .7s ease-in-out;
 }
