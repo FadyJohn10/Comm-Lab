@@ -16,7 +16,8 @@ function scrollPage() {
 // Function for initiating the intro sequence
 function dIntro(country) {
     // Remove the 'readybtn' element from the page.
-    document.getElementById("readybtn").remove();
+    document.getElementById("playBtn").remove();
+    document.getElementById("introImage").remove();
 
     // Adjust the brightness of the 'vid' element to 100%
     document.getElementById("vid").style.filter = "brightness(1)";

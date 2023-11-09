@@ -12,7 +12,20 @@
 <body>
 
 <div class="intro">
-    <button id="readybtn" onclick="dIntro()">Ready for Departure?</button>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <img id="introImage" src="./images/train.png">
+            </div>
+            <div class="col-md-5">
+                <button id="playBtn" class="play-button" onclick="dIntro()">
+                    <svg viewBox="0 0 50 50" class="play-button-icon">
+                      <polygon points="10,5 45,25 10,45" />
+                    </svg>
+                </button>                  
+            </div>
+        </div>
+    </div>
 
     <video width="100%" height="85%" id="vid">
         <source src="./videos/india.mp4" type="video/mp4">

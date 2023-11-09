@@ -16,7 +16,7 @@ body{
     background-color: #788F9C;
 }
 /* adjusting ready button style displayed in the intro screen */
-#readybtn {
+/* #readybtn {
     background: #4729a8;
     border: none;
     z-index: 1;
@@ -31,26 +31,41 @@ body{
     padding: 10px 20px;
     font-size: 21px;
   }
-  #readybtn:after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 100%;
-    top: 0;
-    right: 0;
-    z-index: -1;
-    background-color: #663dff;
-    border-radius: 10px;
-    transition: all 0.3s ease;
-  }
   #readybtn:hover {
     color: #fff;
+  } */
+
+  .intro{
+    background-color: #000;
   }
-  #readybtn:hover:after {
-    left: 0;
+
+  .intro img{
+    margin-top: 180px;
     width: 100%;
   }
 
+  .play-button {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(160, 160, 160);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -70%);
+    margin-top: 120px;
+  }
+  
+  .play-button-icon {
+    fill: rgb(40, 40, 40);
+    width: 70%;
+    height: 70%;
+  }
+  
 /* Style for the 'timeline-steps' and 'timeline-step' elements */
 
 .timeline-steps {
