@@ -3,6 +3,10 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById('intro_audio').play();
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("playBtn").click();
+});
+
 // Function for scrolling the page automatically
 function scrollPage() {
 
@@ -17,7 +21,6 @@ function scrollPage() {
 function dIntro(country) {
     // Remove the 'readybtn' element from the page.
     document.getElementById("playBtn").remove();
-    document.getElementById("introImage").remove();
 
     // Adjust the brightness of the 'vid' element to 100%
     document.getElementById("vid").style.filter = "brightness(1)";
