@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-
-
-<title>WEBSITE TITLE</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="./styles.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Abu Dhabi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- importing css files -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
 </head>
+
 <body>
 
 <div class="container text-center mt-4">
+    <!-- map svg image -->
     <img src="./1.svg" class="mt-4">
+    <!-- audio clip -->
     <audio controls autoplay class="mb-4" id="intro_audio">
         <source src="./audios/intro.ogg" type="audio/ogg">
         <source src="./audios/intro.mp3" type="audio/mpeg">
@@ -20,28 +23,30 @@
     </audio>
 </div>
 
-
+<!-- the timeline containg countries -->
 <div class="container-fluid mt-3">
     <div class="row">
         <div class="col">
         <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
+            <!-- timeline step1 -->
             <div class="timeline-step">
             <a href="index.html"><div class="timeline-content">
                 <div class="inner-circle"></div></a>
                 <p class="h6 mt-3 mb-1">UAE</p>
             </div>
         </div>
+        <!-- timeline step2 -->
         <div class="timeline-step timeline-step2 disabled next_country">
             <a href="./egypt.html"><div class="timeline-content">
                 <div class="inner-circle"></div></a>
                 <p class="h6 mt-3 mb-1">Egypt</p>
             </div>
         </div>
+        <!-- timeline step3 -->
         <div class="timeline-step timeline-step3 disabled">
             <div class="timeline-content">
                 <div class="inner-circle"></div>
                 <p class="h6 mt-3 mb-1">Pakistan</p>
-             
         </div>
         </div>
         <div class="timeline-step timeline-step4 disabled">
@@ -67,6 +72,7 @@
 
 
 </div>
+<!-- Including jQuery and Bootstrap JS from CDN -->
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
 <script type="text/javascript">

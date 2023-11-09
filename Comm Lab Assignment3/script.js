@@ -45,6 +45,7 @@ function dIntro(country) {
     }, 4000);
 }
 
+// change image after a 30s delay
 function changeImage(){
     setTimeout(function(){
         document.querySelector(".pakistan_parllax").style.backgroundImage = "url('./images/pakistan2.png')";
