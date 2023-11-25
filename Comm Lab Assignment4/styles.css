@@ -12,17 +12,38 @@ body, html{
 }
 
 .elem1{
-  width: 120px;
+  width: 10%;
   position: absolute;
   left: 50px;
-  top: 50px;
+  top: 30px;
   transform: rotate(-20deg);
 }
 .elem2{
-  width: 150px;
+  width: 12%;
   position: absolute;
   right: 50px;
-  top: 70px;
+  top: 300px;
+  transform: rotate(-20deg);
+}
+.elem3{
+  width: 12%;
+  position: absolute;
+  left: 50px;
+  top: 380px;
+  transform: rotate(-20deg);
+}
+.elem4{
+  width: 12%;
+  position: absolute;
+  right: 50px;
+  top: 750px;
+  transform: rotate(-20deg);
+}
+.elem5{
+  width: 12%;
+  position: absolute;
+  right: 150px;
+  top: 80px;
   transform: rotate(-20deg);
 }
 
@@ -77,6 +98,7 @@ nav a {
 .about p{
     max-width: 400px;
     margin: auto;
+    font-size: 25px;
 }
 
 footer {
@@ -85,6 +107,24 @@ footer {
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
+}
+
+/* video */
+
+.btn{
+  font-size: 25px;
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.princess-btn{
+  background-color: #F078B1;
+  border-color: #F078B1 !important;
+}
+.princess-btn:hover{
+  background-color: #f263a6;
 }
 
 /* scroll to top button */
