@@ -16,35 +16,32 @@ body, html{
   position: absolute;
   left: 50px;
   top: 30px;
-  transform: rotate(-20deg);
 }
 .elem2{
   width: 12%;
   position: absolute;
   right: 50px;
   top: 300px;
-  transform: rotate(-20deg);
+  transform: rotate(15deg);
 }
 .elem3{
   width: 12%;
   position: absolute;
   left: 50px;
-  top: 380px;
-  transform: rotate(-20deg);
+  top: 480px;
+  transform: rotate(45deg);
 }
 .elem4{
   width: 12%;
   position: absolute;
   right: 50px;
   top: 750px;
-  transform: rotate(-20deg);
 }
 .elem5{
   width: 12%;
   position: absolute;
-  right: 150px;
+  right: 120px;
   top: 80px;
-  transform: rotate(-20deg);
 }
 
 nav {
@@ -113,10 +110,10 @@ footer {
 
 .btn{
   font-size: 25px;
-  width: 100px;
   margin-top: 10px;
   margin-left: 5px;
   margin-right: 5px;
+  padding: 3px 15px;
 }
 
 .princess-btn{
