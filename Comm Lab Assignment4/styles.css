@@ -11,6 +11,8 @@ body, html{
     scroll-behavior: smooth;
 }
 
+/* random graphics styling */
+
 .elem1{
   width: 10%;
   position: absolute;
@@ -44,6 +46,16 @@ body, html{
   top: 80px;
 }
 
+/* hide the photos in small screens */
+@media only screen and (max-width: 992px) {
+  .elem1, .elem2, .elem3, .elem4, .elem5{
+    display: none;
+  }
+}
+
+
+/* navbar styling */
+
 nav {
     background-color: #FFECC1;
     color: #fff;
@@ -73,6 +85,8 @@ nav a {
     font-size: 28px;
     text-transform: uppercase;
 }
+
+/* team section styling */
 
 .about{
     margin: 30px auto;
@@ -106,7 +120,7 @@ footer {
     margin-top: 20px;
 }
 
-/* video */
+/* buttons styling */
 
 .btn{
   font-size: 25px;
