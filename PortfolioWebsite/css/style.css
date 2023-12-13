@@ -633,7 +633,8 @@ blockquote p {
 	border-right: 1px solid ;
 	border-bottom: 1px solid ;
 	z-index: 2;
-	transform: rotate(0)
+	transform: rotate(0);
+	color: #ff6121;
 }
 .dir-arrow.dird{
 	transform: rotate(180deg)
@@ -1433,6 +1434,7 @@ section {
 	float:left;
 	margin-top:25px;
 	display:block;
+	background-color: #ff6121;
 } 
 /*------ clients ------------------------------------------------*/
 .no_bottom_padding {
