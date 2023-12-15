@@ -1,4 +1,7 @@
+/* importing the fonts from google font */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+/* adjusting the main layout */
 html{
 	overflow-x:hidden !important;
 	height:100%;
@@ -15,6 +18,7 @@ body{
 	text-align:center;
 	color:#1e1e1e;
 }
+
 /*Colors*/
 .color-bg , .element-item:before, .pr-button-dot:before    , .scroller  , .hero-slider-controls-top , .nav-button span  , .fs-slider_align_title:before , .hero-slider-pag .swiper-pagination-bullet:before    , .nav-container:after , .column-footer , .section-title:before ,  .tc-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active , .tc-pagination .swiper-pagination-bullet:hover , .pdcw_list  li:before , .team-skills_item:before , .team-skills_item:after    , .half-bg-container:before , .half-bg-container:after , .footer-social li a:before , .main-footer:after  , .leaflet-touch .leaflet-bar a , .view_fm:after , .block_img:before , .single-btn:hover , .post-item_media a:after , .pagination a.current-page, .pagination a:hover    , .pr-subtitle:after , .box-media-zoom  , .ss-slider-pagination .swiper-pagination-bullet , .text-block:before , .impulse-wrap:before , .impulse-wrap:after , .overlay-dec-dot.overlay-dec-vis:before , .overlay-dec-dot.overlay-dec-vis:after  , .grid-media-zoom , .fixed-filters .gallery-filters a:before , .hero-showc ase-wrap:before  , .hero-sho wcase-wrap:after , .sdl_top:before  , .sdl_right:before , .sdl_left:before , .grid-det:before , .share-icon      , .list-item_category a:before   , .cen-slider-pagination_wrap .swiper-pagination-bullet , .gallery-fw_wrap:before , .gallery-fw_wrap:after , .hs_counter:before  , .accordion a.toggle span , .project-details:before  , .footer-grid:before , .footer-grid:after , .video-row:after  , .hero-marquee:after , .fs-slider_align_title.fsat_single  h2:before  , .half-carousel-content h3:before , .block_img:after , .footer-dec:before , .footer-dec:after , .fwc_dec:before ,  .hero-carousel_pagination  .swiper-pagination-bullet  , .grid-carousel-title  h3:before , .carousle-item-number , .start-btn_sin:before , .ft_dec:before , .ft_dec:after , .ft_dec , .irs-slider:before , .cart-item-footer:after  , .line-item:before , .hidden_wrap_btn:before , .hidden_wrap_btn:after , .lg-actions .lg-next, .lg-actions .lg-prev {
 	background:#FF6220;
@@ -38,6 +42,7 @@ body{
 	color:#FF6220;
 }
 }
+
 /*--------------Typography--------------------------------------*/
 p {
 	text-align: left;
@@ -191,7 +196,7 @@ blockquote p {
 .element-item.dark_elem:before  {
 	background: #111
 }
-/* ---------Content Styles--------------------------------------*/
+/* --------- Content Styles--------------------------------------*/
 #main{
 	height:100%;
 	width:100%;
@@ -268,21 +273,6 @@ blockquote p {
 }
 .no-padding {
 	padding:0 !important;
-}
-.logo-holder {
-	position: absolute;
-    top: 0;
-    left: 0;
-    width: 150px;
-    font-family: 'Orbitron', sans-serif;
-    font-weight: 900;
-    text-transform: uppercase;
-    color: #000;
-    letter-spacing: 10px;
-    height: 100%;
-    font-size: 18px;
-    line-height: 100px;
-    overflow: hidden;
 }
 /*------half-carousel------------------------------------------------*/
 .half-carousel-conatiner {
@@ -429,6 +419,21 @@ blockquote p {
 	height: 6px;
 }
 /*------  content ------------------------------------------------------*/
+.logo-holder {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 10px;
+    height: 100%;
+    font-size: 18px;
+    line-height: 100px;
+    overflow: hidden;
+}
 .scroll-nav-container {
 	position: fixed;
 	top: 0;
@@ -815,6 +820,8 @@ section {
 .line-item:first-child {
 	border-left: 1px solid rgba(153, 153, 153, 0.09);
 }
+
+/* start about section styling */
 .about_row {
 	display: flex;
     flex-direction: row;	
@@ -1076,6 +1083,7 @@ section {
 	border: 4px solid;
 	box-shadow: 0px 0px 0px 26px rgb(255 255 255 / 5%);
 }
+/* start facts section styling */
 .inline-facts-wrap {
 	float: left;
 	width:50%;
@@ -1093,7 +1101,7 @@ section {
 .inline-facts-wrap h6 {
 	position: relative;
 	margin-top: 12px;
-	color: #666;
+	color: #ff6121;
 	font-size: 10px;
 	font-weight: 500;
 	letter-spacing: 2px;
@@ -1180,7 +1188,7 @@ section {
 	padding:0 10px 0 0;
 	position:relative;
 	text-transform:uppercase;
-	font-size:10px;
+	font-size:13px;
 	letter-spacing:2px;
 }
 .pdcw_list  li:before , .list-item_category a:before {
